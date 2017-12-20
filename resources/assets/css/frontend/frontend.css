@@ -1,0 +1,12 @@
+body {
+  font-size: 12px;
+  margin: 0px; }
+  body header, body footer {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    padding: 10px; }
+  body div#content {
+    background-color: #ffffff !important;
+    color: #000000 !important; }
+
+/*# sourceMappingURL=frontend.css.map */

@@ -1,0 +1,21 @@
+$black:#000000;
+$white:#ffffff;
+$i:!important;
+
+body
+{
+	font-size:12px;
+	margin:0px;
+
+	header,footer
+	{
+		background-color:$black$i;
+		color:$white$i;
+		padding:10px;
+	}
+	div#content
+	{
+		background-color:$white$i;
+		color:$black$i;
+	}
+}

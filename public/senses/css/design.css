@@ -1,0 +1,171 @@
+
+.navbar-own{
+	background-color: rgba(9,52,21,0.6);
+}
+
+.navbar {
+  min-height: 60px;
+  margin-bottom: 30px;
+}
+
+.nav > li > a {
+  padding: 15px 20px;
+  color: white;
+  background-color: transparent;
+  font-weight: bold;
+  text-transform: uppercase!important;
+}
+
+.nav > li > a:hover,.nav > li > a:focus {
+  color: #278936;
+  background-color: white;
+}
+
+.navbar-brand > img{
+	height: 50px;
+	padding: 5px;
+}
+
+hr{
+	max-width: 100px;
+	border-color: #278936!important;
+	border-width: 3px;
+}
+
+.title{
+	border-color: #222;
+	max-width: 200px;
+	border-width: 1px;
+}
+
+a:hover{
+	text-decoration: none;
+	color: red;
+}
+
+p{
+	font-size: 15px;
+	word-spacing: 4px;
+	letter-spacing: 2px;
+	font-family: calibri;
+	text-align: center;
+	color: #666;
+	font-weight: bold;
+}
+
+h1,h2,h3,h4{
+	letter-spacing: 2px;
+	font-weight: bolder;
+	text-align: center;
+	color: #696969;
+
+}
+
+h2{
+	padding-top: 50px;
+	text-transform: uppercase;
+	color: #093415!important;
+}
+
+section{
+	min-height: 80vh;
+}
+
+.section-home{
+	background-size: cover;
+	background-position: top;
+	min-height: 100vh;
+}
+
+.section-about{
+	text-align: center;
+}
+
+.section-event{
+	background-color: white;
+	align-content: center;
+}
+
+.caption{
+	text-align: center;
+}
+
+.section-service{
+	text-align: center;
+}
+
+.btn-service{
+	background-color: rgba(9,52,21,0.4);
+	color: white;
+	border: thin thick #fff;
+	transition: 0.6s
+	font-weight:normal;
+}
+
+.btn-service:hover,.btn-service:focus{
+	background-color: transparent;
+	color: rgb(9,52,21);
+	font-weight: bolder;
+	text-transform: uppercase;
+	border: thin thick rgb(9,52,21);
+	transition: 0.6s
+}
+
+.text-white{
+	color: white;
+	text-shadow: 1px 1px 1px #222;
+
+}
+
+.text-yellow{
+	color: #b8860b;
+	text-shadow: rgb(9,52,21);
+	text-shadow: #2f4f4f; 
+	font-family: Segoe Print;
+}
+
+.text-green{
+	color: rgb(9,52,21);
+	text-shadow: #b8860b; 
+	font-size: 25px;
+	font-family: Segoe Print;
+}
+
+.btn-submit{
+	background-color: #1e90ff;
+	border: solid #1e90ff thin;
+	transition-duration: 0.5s;
+	color: white;
+	font-weight: bold;
+	font-family: Segoe Print;
+
+}
+
+.btn-submit:hover, .btn-submit:focus{
+	background-color: white;
+	border: solid  thin #1e90ff;
+	transition-duration: 0.5s;
+	color: #1e90ff;
+}
+
+.section-reserve{
+	min-height: 400px;
+	padding-top: 40px;
+	position: center;
+	background-size: cover;
+	background-image: url(../image/1.png);
+	color: #fff!important;
+}
+
+.img-small{
+	height: 150px;
+
+}
+
+.box-service{
+	padding-bottom: 25px!important;
+}
+
+.box-product{
+	padding: 1em !important;
+}

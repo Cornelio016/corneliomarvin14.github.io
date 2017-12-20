@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIA,IACA;EACC,SAAS,EAAC,IAAI;EACd,MAAM,EAAC,GAAG;EAEV,wBACA;IACC,gBAAgB,EAAC,kBAAQ;IACzB,KAAK,EAAC,kBAAQ;IACd,OAAO,EAAC,IAAI;EAEb,gBACA;IACC,gBAAgB,EAAC,kBAAQ;IACzB,KAAK,EAAC,kBAAQ",
+"sources": ["../../sass/frontend.scss"],
+"names": [],
+"file": "frontend.css"
+}
