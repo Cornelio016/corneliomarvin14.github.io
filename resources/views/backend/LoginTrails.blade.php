@@ -13,7 +13,7 @@
                 }
             </style>
 
-                   <img src="/public/img/17.png" style="  border-radius: 50%; height: 100px; margin-top: 30px; margin-left: 20px;">
+                   <img src="{{URL::asset('img/17.png')}}" style="  border-radius: 50%; height: 100px; margin-top: 30px; margin-left: 20px;">
 
 
                 

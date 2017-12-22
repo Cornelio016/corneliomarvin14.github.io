@@ -25,7 +25,7 @@
 		}
 	</style>
 
-	<img src="/public/img/tungko.jpg" style="  border-radius: 50%; width: 200px; height: 150px; margin-top: 30px; margin-left: 20px;">.
+	<img src="{{URL::asset('img/tungko.jpg')}}" style="  border-radius: 50%; width: 200px; height: 150px; margin-top: 30px; margin-left: 20px;">.
 
 		
 	
@@ -113,11 +113,7 @@ function toggleDataSeries(e) {
 </head>
 <body>
 <div id="chartContainer" style="height: 300px; width: 100%;"></div>
-<<<<<<< HEAD
-<script src="/public/canvas/canvasjs.min.js"></script>
-=======
-<script src="/canvas/canvasjs.min.js"></script>
->>>>>>> abc95ca117361706bb7a981ee25cd39be75d46d1
+<script src="{{URL::asset('canvas/canvasjs.min.js')}}"></script>
  <div class="hsh text-center">
 		Number of Service
 </div>

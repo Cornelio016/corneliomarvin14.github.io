@@ -4,30 +4,15 @@
       <title>Backend</title> 
       <meta name="viewport" content="width=device-width, initialscale=1.0"> 
       <!-- Bootstrap --> 
-
-      <link href="/public/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet"> 
+      <link href="{{URL::asset('bootstrap-3.3.7-dist\css\bootstrap.min.css')}}" rel="stylesheet"> 
       <!-- Bootstrap Form Helpers -->
-      <link href="/public/form-helpers/dist/css/bootstrap-formhelpers.min.css" rel="stylesheet" media="screen">
-      
-  
-      <link href="/resources/assets/css/backend/backend.css" rel="stylesheet">
-      <link href="/public/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
-
-      
-      <link href="/public/bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet"> 
-      <link href="/public/resources/assets/css/backend/backend.css" rel="stylesheet">
-      <link href="/public/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
-
-     
-      <script src="/resources/assets/js/general/jquery.min.js"></script>
-
-
-      <script type="text/javascript" src="/public/bootstrap dp/js/bootstrap-datepicker.min.js"></script>
-      <link rel="stylesheet" href="/public/bootstrap dp/css/bootstrap-datepicker3.css"/>
-
-     
+      <link href="{{URL::asset('form-helpers\dist\css\bootstrap-formhelpers.min.css')}}" rel="stylesheet" media="screen">
+      <link href="{{URL::asset('bootstrap-3.3.7-dist\css\bootstrap.css')}}" rel="stylesheet"> 
+      <link href="{{URL::asset('css\backend.css')}}" rel="stylesheet">
+      <link href="{{URL::asset('font-awesome\css\font-awesome.min.css')}}" rel="stylesheet" type="text/css">
+      <script src="{{URL::asset('js\jquery.min.js')}}"></script>
+      <script type="text/javascript" src="{{URL::asset('bootstrap dp\js\bootstrap-datepicker.min.js')}}"></script>
+      <link rel="stylesheet" href="{{URL::asset('bootstrap dp\css\bootstrap-datepicker3.css')}}"/>
 
       <script>
         $(document).ready(function(){
@@ -69,17 +54,17 @@
                     <ul>
                       @if(Auth::User()->admin)
                         <li class="menu-head">
-                            <a href="/home">Admin Panel</a> <span></span><a href="#" class="push_menu"><span class="fa fa-exchange pull-right"></span></a>
+                            <a href="{{URL::asset('home')}}">Admin Panel</a> <span></span><a href="#" class="push_menu"><span class="fa fa-exchange pull-right"></span></a>
                         </li>
                       @else
                       <li class="menu-head">
-                           <a href="/home">{{ Auth::User()->branch }} Panel</a>  <span></span><a href="#" class="push_menu"><span class="fa fa-exchange pull-right"></span></a>
+                           <a href="{{URL::asset('home')}}">{{ Auth::User()->branch }} Panel</a>  <span></span><a href="#" class="push_menu"><span class="fa fa-exchange pull-right"></span></a>
                         </li>
                       @endif
                         <div class="menu">
                           @if(Auth::User()->admin)
                             <li>
-                                <a href="/admin/dashboard" >Admin Dashboard <span class="fa fa-bar-chart  pull-right "></span></a>
+                                <a href="{{URL::asset('admin/dashboard')}}" >Admin Dashboard <span class="fa fa-bar-chart  pull-right "></span></a>
     
                             </li>
               
@@ -95,16 +80,16 @@
                                 <a href="#submenu-4" data-toggle="collapse">Branch <span class="fa fa-home pull-right"></span></a>
                                 <ul id="submenu-4" class="panel-collapse collapse panel-switch design" role="menu">
                                 
-                                    <li><a href="/admin/Branch/Road1">&nbsp;&nbsp;&nbsp;Road1 Dashboard</a></li>
-                                    <li><a href="/admin/Branch/Tungko">&nbsp;&nbsp;&nbsp;Tungko Dashboard</a></li>
+                                    <li><a href="{{URL::asset('admin/Branch/Road1')}}">&nbsp;&nbsp;&nbsp;Road1 Dashboard</a></li>
+                                    <li><a href="{{URL::asset('admin/Branch/Tungko')}}">&nbsp;&nbsp;&nbsp;Tungko Dashboard</a></li>
                                   
-                                    <li><a href="/admin/Branch/Sampol">&nbsp;&nbsp;&nbsp;Sapang palay Dashboard</a></li>
+                                    <li><a href="{{URL::asset('admin/Branch/Sampol')}}">&nbsp;&nbsp;&nbsp;Sapang palay Dashboard</a></li>
                                 </ul>
                                 @endif
                           
                               @if(Auth::User()->admin)
                             <li>
-                                <a href="/admin/Service_and_Category">Service/Category <span class="fa fa-scribd  pull-right "></span></a>
+                                <a href="{{URL::asset('admin/Service_and_Category')}}">Service/Category <span class="fa fa-scribd  pull-right "></span></a>
                             </li>
                             
                             <!-- <li>
@@ -115,8 +100,8 @@
                                 <a href="#submenu-5" data-toggle="collapse">Staff <span class="fa fa-user pull-right"></span></a>
                                 <ul id="submenu-5" class="panel-collapse collapse panel-switch design" role="menu">
                                   @if(Auth::User()->admin)
-                                    <li><a href="/admin/Staff">&nbsp;&nbsp;&nbsp;Staff List</a></li>
-                                    <li><a href="/admin/archivelist">&nbsp;&nbsp;&nbsp;Archived</a></li>
+                                    <li><a href="{{URL::asset('admin/Staff')}}">&nbsp;&nbsp;&nbsp;Staff List</a></li>
+                                    <li><a href="{{URL::asset('admin/archivelist')}}">&nbsp;&nbsp;&nbsp;Archived</a></li>
                                   @endif  
                                    
                                 </ul>
@@ -127,7 +112,7 @@
                                 <a href="/admin/homeservice" >Home Service <span class="glyphicon pull-right"></span></a>
                             </li> -->
                             <li>
-                                <a href="/admin/Events" >Events <span class="fa fa-calendar-o  pull-right"></span></a>
+                                <a href="{{URL::asset('admin/Events')}}" >Events <span class="fa fa-calendar-o  pull-right"></span></a>
                             </li>
                             @endif
                               @if(Auth::User()->admin == 0)
@@ -135,9 +120,9 @@
                                 <a href="#submenu-6" data-toggle="collapse">Graph Analytics<span class="fa fa-user pull-right"></span></a>
                                 <ul id="submenu-6" class="panel-collapse collapse panel-switch design" role="menu">
                             
-                                    <li><a href="/branch/road1graph">&nbsp;&nbsp;&nbsp;Road1</a></li>
-                                    <li><a href="/branch/sapangpalaygraph">&nbsp;&nbsp;&nbsp;Sapang Palay</a></li>
-                                    <li><a href="/branch/tungkograph">&nbsp;&nbsp;&nbsp;Tungko</a></li>
+                                    <li><a href="{{URL::asset('branch/road1graph')}}">&nbsp;&nbsp;&nbsp;Road1</a></li>
+                                    <li><a href="{{URL::asset('branch/sapangpalaygraph')}}">&nbsp;&nbsp;&nbsp;Sapang Palay</a></li>
+                                    <li><a href="{{URL::asset('branch/tungkograph')}}">&nbsp;&nbsp;&nbsp;Tungko</a></li>
                                  
                                    
                                 </ul>
@@ -145,12 +130,12 @@
                            
                               
                             <li>
-                                <a href="/admin/Transaction">Transaction <span class="fa fa-money pull-right"></span></a>
+                                <a href="{{URL::asset('admin/Transaction')}}">Transaction <span class="fa fa-money pull-right"></span></a>
                             </li>
                              
                             
                             <li>
-                                <a href="/road1/transactionlist">Transaction  List<span class="fa fa-money pull-right"></span></a>
+                                <a href="{{URL::asset('road1/transactionlist')}}">Transaction  List<span class="fa fa-money pull-right"></span></a>
                             </li>
                             @endif
 
@@ -179,10 +164,10 @@
                                 <ul id="submenu-3" class="panel-collapse collapse panel-switch design" role="menu">
                                   @if(Auth::User()->admin)
                                     
-                                    <li><a href="/admin/users">&nbsp;&nbsp;&nbsp;Users Account</a></li>
-                                    <li><a href="/admin/Login">&nbsp;&nbsp;&nbsp;Log in Trails</a></li>
+                                    <li><a href="{{URL::asset('admin/users')}}">&nbsp;&nbsp;&nbsp;Users Account</a></li>
+                                    <li><a href="{{URL::asset('admin/Login')}}">&nbsp;&nbsp;&nbsp;Log in Trails</a></li>
                                   @endif  
-                                    <li><a href="/auth/logout">&nbsp;&nbsp;&nbsp;Logout</a></li>
+                                    <li><a href="{{URL::asset('auth/logout')}}">&nbsp;&nbsp;&nbsp;Logout</a></li>
                                 </ul>
                             </li>
                                                         
@@ -221,12 +206,12 @@
       
       <!-- Include all compiled plugins (below), or include individual files as needed --> 
 
-      <script src="/public/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script> 
+      <script src="{{URL::asset('bootstrap-3.3.7-dist/js/bootstrap.min.js')}}"></script> 
 
       <!-- Bootstrap Form Helpers -->
-      <script src="/public/form-helpers/dist/js/bootstrap-formhelpers.min.js"></script>
+      <script src="{{URL::asset('form-helpers/dist/js/bootstrap-formhelpers.min.js')}}"></script>
 
-      <script src="/public/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script> 
+      <script src="{{URL::asset('bootstrap-3.3.7-dist/js/bootstrap.min.js')}}"></script> 
 
 
 

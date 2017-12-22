@@ -2,11 +2,11 @@
 <html>
 <head>
   <title>Senses</title>
-  <link rel="stylesheet" tpe="text/css" href='/public/senses/bootstrap/css/bootstrap.min.css'>
-  <link rel="stylesheet" type="text/css" href='/public/senses/css/design.css'>
-  <link href="/public/senses/css/nivo-lightbox.css" rel="stylesheet" />
-  <link rel="stylesheet" type="text/css" href='/public/senses/plugins/boot_font/css/font-awesome.min.css'>
-  <script src="/public/senses/js/jquery-1.11.3.min.js"></script>
+  <link rel="stylesheet" tpe="text/css" href="{{URL::asset('senses/bootstrap/css/bootstrap.min.css')}}">
+  <link rel="stylesheet" type="text/css" href="{{URL::asset('senses/css/design.css')}}">
+  <link href="{{URL::asset('senses/css/nivo-lightbox.css')}}" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="{{URL::asset('senses/plugins/boot_font/css/font-awesome.min.css')}}">
+  <script src="{{URL::asset('senses/js/jquery-1.11.3.min.js')}}"></script>
 </head>
 <body>
   <nav class="navbar navbar-own navbar-fixed-top" role="navigation"> 
@@ -18,7 +18,7 @@
            <span class="icon-bar"></span> 
            <span class="icon-bar"></span> 
         </button> 
-        <a class="navbar-brand" href="#home"><img src="/public/senses/image/logo.png"></a> 
+        <a class="navbar-brand" href="#home"><img src="{{URL::asset('senses/image/logo.png')}}"></a> 
      </div> 
      <div class="collapse navbar-collapse pull-right" id="example-navbar-collapse"> 
         <ul class="nav navbar-nav"> 
@@ -52,34 +52,34 @@
           <!-- Wrapper for slides -->
           <div class="carousel-inner">
             <div class="item active">
-              <img src="/public/senses/img/thumbnail/SensesRoad1.jpg"  style="width:100%;height: 100%;">
+              <img src="{{URL::asset('senses/img/thumbnail/SensesRoad1.jpg')}}"  style="width:100%;height: 100%;">
             </div>
 
             <div class="item">
-              <img src="/public/senses/img/thumbnail/SensesSapangpalay.jpg"  style="width:100%; height: 100%;">
+              <img src="{{URL::asset('senses/img/thumbnail/SensesSapangpalay.jpg')}}"  style="width:100%; height: 100%;">
             </div>
           
             <div class="item">
-              <img src="/public/senses/img/17.png" alt="New york" style="width:100%; height: 100%;">
+              <img src="{{URL::asset('senses/img/17.png')}}" alt="New york" style="width:100%; height: 100%;">
             </div>
 
              <div class="item">
-              <img src="/public/senses/imgs/portfolio/fullsize/1.png"  style="width:100%; height: 100%;">
+              <img src="{{URL::asset('senses/imgs/portfolio/fullsize/1.png')}}"  style="width:100%; height: 100%;">
             </div>
             <div class="item">
-              <img src="/public/senses/imgs/portfolio/fullsize/2.png"  style="width:100%; height: 100%;">
+              <img src="{{URL::asset('senses/imgs/portfolio/fullsize/2.png')}}"  style="width:100%; height: 100%;">
             </div>
             <div class="item">
-              <img src="/public/senses/imgs/portfolio/fullsize/3.png"  style="width:100%; height: 100%;">
+              <img src="{{URL::asset('senses/imgs/portfolio/fullsize/3.png')}}"  style="width:100%; height: 100%;">
             </div>
              <div class="item">
-              <img src="/public/senses/imgs/portfolio/fullsize/4.png"  style="width:100%; height: 100%;">
+              <img src="{{URL::asset('senses/imgs/portfolio/fullsize/4.png')}}"  style="width:100%; height: 100%;">
             </div>
               <div class="item">
-              <img src="/public/senses/imgs/portfolio/fullsize/5.png"  style="width:100%; height: 100%;">
+              <img src="{{URL::asset('senses/imgs/portfolio/fullsize/5.png')}}"  style="width:100%; height: 100%;">
             </div>
             <div class="item">
-              <img src="/public/senses/imgs/portfolio/fullsize/6.png"  style="width:100%; height: 100%;">
+              <img src="{{URL::asset('senses/imgs/portfolio/fullsize/6.png')}}"  style="width:100%; height: 100%;">
             </div>
            
           </div>
@@ -107,8 +107,8 @@
       <div class="row">
         <div class="col-md-5">
           <br>
-          <a href="/public/senses/img/thumbnail/SensesRoad1.jpg">
-            <img src="/public/senses/img/thumbnail/SensesRoad1.jpg" class="img-thumbnail" alt="image not available">
+          <a href="{{URL::asset('senses/img/thumbnail/SensesRoad1.jpg')}}">
+            <img src="{{URL::asset('senses/img/thumbnail/SensesRoad1.jpg')}}" class="img-thumbnail" alt="image not available">
           </a>
           <br>
           <caption><strong>
@@ -163,7 +163,7 @@
         <div class="col-md-4">
           <h3>ROAD1 MAIN BRANCH </h3>
           <br><br>
-          <a href="/public/senses/img/thumbnail/SensesRoad1.jpg"><img src="/public/senses/img/thumbnail/SensesRoad1.jpg" class="img-thumbnail"></a>
+          <a href="{{URL::asset('senses/img/thumbnail/SensesRoad1.jpg')}}"><img src="{{URL::asset('senses/img/thumbnail/SensesRoad1.jpg')}}" class="img-thumbnail"></a>
           <br><br>
           <p>
             Address: City Crossing Bldg. Road 1 Minuyan Proper CSJDM Bulacan<br><br>
@@ -175,7 +175,7 @@
         <div class="col-md-4">
           <h3>TUNGKO BRANCH</h3>
           <br><br>
-          <a href="/public/senses/img/tungko.jpg"><img style="height: 360px;" src="/public/senses/img/tungko.jpg" class="img-thumbnail"></a>
+          <a href="{{URL::asset('senses/img/tungko.jpg')}}"><img style="height: 360px;" src="{{URL::asset('senses/img/tungko.jpg')}}" class="img-thumbnail"></a>
           <br><br>
           <p>
           Address: F&E Bldg. Tungkong Mangga CSJDM Bulacan<br><br>
@@ -186,7 +186,7 @@
         <div class="col-md-4">
           <h3>SAPANG PALAY BRANCH</h3>
           <br><br>
-          <a href="/public/senses/img/thumbnail/SensesSapangpalay.jpg"><img style="height: 360px;" src="/public/senses/img/thumbnail/SensesSapangpalay.jpg" class="img-thumbnail"></a>
+          <a href="{{URL::asset('senses/img/thumbnail/SensesSapangpalay.jpg')}}"><img style="height: 360px;" src="{{URL::asset('senses/img/thumbnail/SensesSapangpalay.jpg')}}" class="img-thumbnail"></a>
           <br><br>
           <p>
         Address: Sapang Palay Sampol CSJDM Bulacan<br><br>
@@ -208,14 +208,13 @@
         <hr>
         <br><br>
 
-          <div class="col-lg-3 col-md-3 col-sm-12 box-product">
-            <img src="/public/senses/img/logos/4.png" class="img-small" style="padding-left: 130px;">
-            <div class="pull-right">
-              <h3 class="text-yellow"><strong>FACE</strong></h3>
-              <hr class="title">
-             
-              <button class="btn btn-lg- btn-service" data-toggle="modal" data-target="#Face">MORE DETAILS</button>
-            </div>
+          <div class="col-lg-3 col-md-3 col-sm-12">
+            <img src="{{URL::asset('senses/img/logos/4.png')}}" class="img-small img-circle">
+            <h3 class="text-yellow"><strong>FACE</strong></h3>
+            <hr class="title">
+            <p>
+            </p>
+             <button class="btn btn-lg- btn-service" data-toggle="modal" data-target="#Face">MORE DETAILS</button>
           </div>
 
            <div id="Face" class="modal fade" role="dialog">
@@ -251,14 +250,13 @@
                   </div>
             </div>
 
-          <div class="col-lg-3 col-md-3 col-sm-12 box-product">
-            <img src="/public/senses/img/logos/1.png" class="img-small" style="padding-left: 50px;">
-            <div class="pull-right">
-              <h3 class="text-yellow"><strong>HAIR STYLING</strong></h3>
-              <hr class="title">
-           <span></span>
-              <button class="btn btn-lg- btn-service"  data-toggle="modal" data-target="#HairStyle">MORE DETAILS</button>
-            </div>
+          <div class="col-lg-3 col-md-3 col-sm-12">
+           <img src="{{URL::asset('senses/img/logos/1.png')}}" class="img-small">
+            <h3 class="text-yellow"><strong>HAIR STYLING</strong></h3>
+            <hr class="title">
+            <p>
+            </p>
+             <button class="btn btn-lg- btn-service" data-toggle="modal" data-target="#HairStyle">MORE DETAILS</button>
           </div>
 
 
@@ -295,14 +293,13 @@
                   </div>
             </div>
 
-          <div class="col-lg-3 col-md-3 col-sm-12 box-product">
-            <img src="/public/senses/img/logos/3.png" class="img-small" style="padding-left: 100px;">
-            <div class="pull-right">
-              <h3 class="text-yellow"><strong>HAIR COLOR</strong></h3>
-              <hr class="title">
-             <span></span>
-              <button class="btn btn-lg- btn-service"   data-toggle="modal" data-target="#HairColor">MORE DETAILS</button>
-            </div>
+        <div class="col-lg-3 col-md-3 col-sm-12">
+           <img src="{{URL::asset('senses/img/logos/3.png')}}" class="img-small">
+             <h3 class="text-yellow"><strong>HAIR COLOR</strong></h3>
+            <hr class="title">
+            <p>
+            </p>
+             <button class="btn btn-lg- btn-service" data-toggle="modal" data-target="#HairColor">MORE DETAILS</button>
           </div>
 
             <div id="HairColor" class="modal fade" role="dialog">
@@ -337,14 +334,14 @@
                     </div>
                   </div>
             </div>
-          <div class="col-lg-3 col-md-3 col-sm-12 box-product">
-            <img src="/public/senses/img/logos/5.png" class="img-small" style="padding-left: 100px;">
-            <div class="pull-right">
-              <h3 class="text-yellow"><strong>NAIL CARE</strong></h3>
-              <hr class="title">
-            <span></span>
-              <button class="btn btn-lg- btn-service"    data-toggle="modal" data-target="#nailcare">MORE DETAILS</button>
-            </div>
+
+         <div class="col-lg-3 col-md-3 col-sm-12">
+           <img src="{{URL::asset('senses/img/logos/5.png')}}" class="img-small">
+             <h3 class="text-yellow"><strong>NAIL CARE</strong></h3>
+            <hr class="title">
+            <p>
+            </p>
+             <button class="btn btn-lg- btn-service" data-toggle="modal" data-target="#nailcare">MORE DETAILS</button>
           </div>
 
            <div id="nailcare" class="modal fade" role="dialog">
@@ -380,14 +377,13 @@
                   </div>
             </div>
 
-          <div class="col-lg-3 col-md-3 col-sm-12 box-product">
-            <img src="/public/senses/img/logos/3.png" class="img-small">
-            <div class="pull-right">
-              <h3 class="text-yellow"><strong>HAIR TREATMENT</strong></h3>
-              <hr class="title">
-            <span></span>
-              <button class="btn btn-lg- btn-service"    data-toggle="modal" data-target="#hairtreatment">MORE DETAILS</button>
-            </div>
+          <div class="col-lg-3 col-md-3 col-sm-12">
+          <img src="{{URL::asset('senses/img/logos/3.png')}}" class="img-small">
+             <h3 class="text-yellow"><strong>HAIR TREATMENT</strong></h3>
+            <hr class="title">
+            <p>
+            </p>
+             <button class="btn btn-lg- btn-service" data-toggle="modal" data-target="#hairtreatment">MORE DETAILS</button>
           </div>
 
            <div id="hairtreatment" class="modal fade" role="dialog">
@@ -423,15 +419,14 @@
                   </div>
             </div>
 
-          <div class="col-lg-3 col-md-3 col-sm-12 box-product">
-            <img src="/public/senses/img/logos/bg1.png" class="img-small" style="padding-left: 130px;">
-            <div class="pull-right">
-              <h3 class="text-yellow"><strong>SPA</strong></h3>
-              <hr class="title">
-            <span></span>
-              <button class="btn btn-lg- btn-service"    data-toggle="modal" data-target="#spa">MORE DETAILS</button>
-            </div>
-        </div>
+           <div class="col-lg-3 col-md-3 col-sm-12">
+          <img src="{{URL::asset('senses/img/logos/bg1.png')}}" class="img-small">
+             <h3 class="text-yellow"><strong>SPA</strong></h3>
+            <hr class="title">
+            <p>
+            </p>
+             <button class="btn btn-lg- btn-service" data-toggle="modal" data-target="#spa">MORE DETAILS</button>
+          </div>
 
           <div id="spa" class="modal fade" role="dialog">
                   <div class="modal-dialog">
@@ -467,15 +462,14 @@
             </div>
 
 
-         <div class="col-lg-3 col-md-3 col-sm-12 box-product">
-            <img src="/public/senses/img/logos/4.png" class="img-small" style="padding-left: 130px;">
-            <div class="pull-right">
-              <h3 class="text-yellow"><strong>WAXING</strong></h3>
-              <hr class="title">
-       <span></span>
-              <button class="btn btn-lg- btn-service"    data-toggle="modal" data-target="#waxing">MORE DETAILS</button>
-            </div>
-        </div>
+        <div class="col-lg-3 col-md-3 col-sm-12">
+          <img src="{{URL::asset('senses/img/logos/4.png')}}" class="img-small">
+             <h3 class="text-yellow"><strong>WAXING</strong></h3>
+            <hr class="title">
+            <p>
+            </p>
+             <button class="btn btn-lg- btn-service" data-toggle="modal" data-target="#waxing">MORE DETAILS</button>
+          </div>
 
           <div id="waxing" class="modal fade" role="dialog">
                   <div class="modal-dialog">
@@ -510,15 +504,15 @@
                   </div>
             </div>
 
-        <div class="col-lg-3 col-md-3 col-sm-12 box-product">
-            <img src="/public/senses/img/logos/4.png" class="img-small" style="padding-left: 40px;">
-            <div class="pull-right">
-              <h3 class="text-yellow"><strong>SENSES KIDS</strong></h3>
-              <hr class="title">
-           <span></span>
-              <button class="btn btn-lg- btn-service"    data-toggle="modal" data-target="#senseskids">MORE DETAILS</button>
-            </div>
-        </div>
+          <div class="col-lg-3 col-md-3 col-sm-12">
+         <img src="{{URL::asset('senses/img/logos/4.png')}}" class="img-small">
+             <h3 class="text-yellow"><strong>SENSES KIDS</strong></h3>
+            <hr class="title">
+            <p>
+            </p>
+             <button class="btn btn-lg- btn-service" data-toggle="modal" data-target="#senseskids">MORE DETAILS</button>
+          </div>
+          
 
          <div id="senseskids" class="modal fade" role="dialog">
                   <div class="modal-dialog">
@@ -568,9 +562,9 @@
       <center>
         <br><br>
 
-          <div class="col-lg-3 col-md-3 col-sm-12 box-product">
-            <h3 class="text-yellow"><strong> Dream Keratin</strong></h3>
-            <img src="/public/senses/image/products/1.jpg" class="img-small img-circle">
+          <div class="col-lg-3 col-md-3 col-sm-12">
+            <h3 class="text-yellow"><strong> DREAM KERATIN</strong></h3>
+            <img src="{{URL::asset('senses/image/products/1.jpg')}}" class="img-small img-circle">
             <hr class="title">
             <p>
              Dream Keratin Shampoo and Conditioner...
@@ -578,9 +572,9 @@
             <button class="btn btn-lg- btn-service"><i class="fa fa-tag"></i> 599php</button>
           </div>
 
-          <div class="col-lg-3 col-md-3 col-sm-12 box-product">
+          <div class="col-lg-3 col-md-3 col-sm-12">
             <h3 class="text-yellow"><strong>Alfa Parf Lisse</strong></h3>
-            <img src="/public/senses/image/products/2.jpg" class="img-small img-circle">
+            <img src="{{URL::asset('senses/image/products/2.jpg')}}" class="img-small img-circle">
             <hr class="title">
             <p>
               Alfa Parf Lisse Design shampoo and conditioner 250ml...
@@ -589,9 +583,9 @@
             <button class="btn btn-lg- btn-service"><i class="fa fa-tag"></i> 999php</button>
           </div>
 
-          <div class="col-lg-3 col-md-3 col-sm-12 box-product">
+          <div class="col-lg-3 col-md-3 col-sm-12">
             <h3 class="text-yellow"><strong>New Icure Argan</strong></h3>
-            <img src="/public/senses/image/products/3.jpg" class="img-small img-circle">
+            <img src="{{URL::asset('senses/image/products/3.jpg')}}" class="img-small img-circle">
             <hr class="title">
             <p>
               New Icure Argan Series 300ml
@@ -599,9 +593,9 @@
             <button class="btn btn-lg- btn-service"><i class="fa fa-tag"></i>999php</button>
           </div>
 
-          <div class="col-lg-3 col-md-3 col-sm-12 box-product">
+          <div class="col-lg-3 col-md-3 col-sm-12">
             <h3 class="text-yellow"><strong>Maintenance</strong></h3>
-            <img src="/public/senses/image/products/4.jpg" class="img-small img-circle">
+            <img src="{{URL::asset('senses/image/products/4.jpg')}}" class="img-small img-circle">
             <hr class="title">
             <p>
               Senses Your Salon and Spa
@@ -610,9 +604,9 @@
             <button class="btn btn-lg- btn-service"><i class="fa fa-tag"></i>249php</button>
           </div>
 
-          <div class="col-lg-3 col-md-3 col-sm-12 box-product">
+          <div class="col-lg-3 col-md-3 col-sm-12">
             <h3 class="text-yellow"><strong>Body Scrub</strong></h3>
-            <img src="/public/senses/image/products/5.jpg" class="img-small img-circle">
+            <img src="{{URL::asset('senses/image/products/5.jpg')}}" class="img-small img-circle">
             <hr class="title">
             <p>
               Body Scrub 150g
@@ -620,9 +614,9 @@
             <button class="btn btn-lg- btn-service"><i class="fa fa-tag"></i>249php</button>
           </div>
 
-          <div class="col-lg-3 col-md-3 col-sm-12 box-product">
+          <div class="col-lg-3 col-md-3 col-sm-12">
             <h3 class="text-yellow"><strong>Massage Oil</strong></h3>
-            <img src="/public/senses/image/products/6.jpg" class="img-small img-circle">
+            <img src="{{URL::asset('senses/image/products/6.jpg')}}" class="img-small img-circle">
             <hr class="title">
             <p>
              Massage Oil 120ml
@@ -630,9 +624,9 @@
             <button class="btn btn-lg- btn-service"><i class="fa fa-tag"></i>199php</button>
           </div>
 
-          <div class="col-lg-3 col-md-3 col-sm-12 box-product">
+          <div class="col-lg-3 col-md-3 col-sm-12">
             <h3 class="text-yellow"><strong>Fruit Extracts</strong></h3>
-            <img src="/public/senses/image/products/7.jpg" class="img-small img-circle">
+            <img src="{{URL::asset('senses/image/products/7.jpg')}}" class="img-small img-circle">
             <hr class="title">
             <p>
               
@@ -641,9 +635,9 @@
             <button class="btn btn-lg- btn-service"><i class="fa fa-tag"></i>249php</button>
           </div>
 
-          <div class="col-lg-3 col-md-3 col-sm-12 box-product">
+          <div class="col-lg-3 col-md-3 col-sm-12">
             <h3 class="text-yellow"><strong>Vit E Cream</strong></h3>
-            <img src="/public/senses/image/products/8.jpg" class="img-small img-circle">
+            <img src="{{URL::asset('senses/image/products/8.jpg')}}" class="img-small img-circle">
             <hr class="title">
             <p>
               Vit E Cream
@@ -760,5 +754,5 @@
           </script>
         @endif 
   
-  <script src="/public/senses/bootstrap/js/bootstrap.min.js"></script>
+  <script src="senses/bootstrap/js/bootstrap.min.js"></script>
 </html>

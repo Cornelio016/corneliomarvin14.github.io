@@ -76,7 +76,7 @@
 		
 	</style>
 	
-			 <img src="/public/img/17.png" style="  border-radius: 50%; height: 100px; margin-top: 30px; margin-left: 20px;">.
+			 <img src="{{URL::asset('img/17.png')}}" style="  border-radius: 50%; height: 100px; margin-top: 30px; margin-left: 20px;">.
 		
 	
 	<div class="font">
@@ -211,7 +211,7 @@
 
 <body>
 <div id="chartContainer" style="height: 300px; width: 100%;"></div>
-<script src="/public/canvas/canvasjs.min.js"></script>
+<script src="{{URL::asset('canvas/canvasjs.min.js')}}"></script>
 <div class="hsh text-center">
 		Number of Service
 </div>

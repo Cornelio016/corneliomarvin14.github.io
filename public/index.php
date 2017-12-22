@@ -19,6 +19,7 @@
 |
 */
 
+/* die(_DIR_);/home/{YOURHOST}/public_html/awesome*/
 require __DIR__.'/../bootstrap/autoload.php';
 
 /*
